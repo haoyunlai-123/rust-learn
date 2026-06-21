@@ -10,13 +10,13 @@
 | 编号 | 项目 | 知识点 | 状态 | 日期 |
 |------|------|--------|------|------|
 | 01 | hello-world | 环境搭建、cargo 基本用法 | ✅ 完成 | 2026-06-21 |
-| 02 | variables | 变量绑定、mut、常量、遮蔽 | ⬜ 待开始 | - |
+| 02 | variables | 变量绑定、mut、常量、遮蔽 | ✅ 完成 | 2026-06-21 |
 | 03 | - | - | ⬜ 待开始 | - |
 
 ## 📝 学习笔记
 
 - [x] [cargo-hello-world](./learn-notes/cargo-hello-world.md) — 项目组成、Cargo.toml 详解、cargo 命令、编译流程
-- [ ] variables — 变量绑定、mut 可变性、常量、遮蔽 shadowing
+- [x] [variables](./learn-notes/variables.md) — 变量绑定、mut 可变性、常量、遮蔽 shadowing、解构、作用域
 - [ ] ownership — 所有权与借用
 - [ ] lifetimes — 生命周期
 - [ ] traits — Trait 与泛型

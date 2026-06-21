@@ -1,0 +1,7 @@
+[package]
+name = "variables"
+version = "0.1.0"
+edition = "2024"
+
+# 本项目的依赖为空——所有知识点均使用标准库
+[dependencies]
