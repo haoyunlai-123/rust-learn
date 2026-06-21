@@ -1,6 +1,18 @@
 [package]
+# 包名：唯一标识。可执行包 → 生成 .exe；库包 → 生成 .rlib
+# 规则：字母/数字/-/_，不能以数字开头
 name = "hello-world"
+
+# 语义化版本：MAJOR.MINOR.PATCH
+# 0.1.x = 开发阶段，API 随时可变
 version = "0.1.0"
+
+# Edition 定义了 Rust 语法的"年代版"
+# 2015 → 2018 → 2021 → 2024（当前最新）
+# 同一 edition 的代码永远能编译，保证向后兼容
 edition = "2024"
 
+# [dependencies] 节列出第三方库
+# 格式：crate名 = "版本"    (^ 脱字符语义：>=指定版本, <下个主版本)
+# 例如：rand = "0.8"       等价于 >=0.8.0, <0.9.0
 [dependencies]
