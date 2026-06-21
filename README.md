@@ -1,6 +1,7 @@
 # Rust 学习笔记
 
 > 学习进度记录 & 项目索引
+> 📖 完整学习路线：[SYLLABUS.md](./SYLLABUS.md)
 
 ---
 
