@@ -1,0 +1,7 @@
+[package]
+name = "data-types"
+version = "0.1.0"
+edition = "2024"
+
+# 仅使用标准库，无外部依赖
+[dependencies]
